@@ -1,0 +1,31 @@
+nav {
+  margin: auto;
+  display: grid;
+}
+
+.nav_section {
+  width: 100%;
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: 40px 80px 40px;
+  place-content: end;
+}
+
+.switch {
+  margin: 10px;
+  display: block;
+  margin: auto;
+}
+
+.nav_img {
+  display: block;
+  margin: auto;
+}
+
+@media screen and (min-width: 800px) {
+  .nav_section {
+    width: 70%;
+    margin: auto;
+    padding: 4rem 0;
+  }
+}
